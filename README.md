@@ -12,7 +12,7 @@ If I swap the AAA batteries out with Energizer Lithium AAA batteries, the sensor
 <img src="https://raw.githubusercontent.com/tsaitsai/govee_bluetooth_gateway/main/images/chest_freezer_temp_sensor.jpg" width="302" height="403"> <img src="https://raw.githubusercontent.com/tsaitsai/govee_bluetooth_gateway/main/images/battery.jpg" width="403" height="302">
 
 
-I came across this [github project](https://github.com/Thrilleratplay/GoveeWatcher/issues/2) that explains the how the bluetooth advertisement encodes the temperature, humidity, and battery level .  I used Bluepy to read the advertisement and parse it out per the description from the issue to that project.  I'm already using MQTT, Influx, Grafana, and telegraph, so it was convenient to publish the sensor data as MQTT messages and visualize it in Grafana.  Then send email notifications using Node-Red.
+Like a lot of these gateway projects, I wanted to use a Raspberry Pi to read the bluetooth sensor data and act as a gateway.  I came across this [github project](https://github.com/Thrilleratplay/GoveeWatcher/issues/2) that explains the how the bluetooth advertisement encodes the temperature, humidity, and battery level.  The sensor data is encoded in the advertisement, so no GATT connections needed.  I used Bluepy to read the advertisement and parse it out per the description from the issue to that project.  I'm already using MQTT, Influx, Grafana, and telegraph, so it was convenient to publish the sensor data as MQTT messages and visualize it in Grafana.  Then send email notifications using Node-Red.
 
 <img src="https://raw.githubusercontent.com/tsaitsai/govee_bluetooth_gateway/main/images/chest_freezer-cooldown_warmup.jpg" width="472" height="480">
 
