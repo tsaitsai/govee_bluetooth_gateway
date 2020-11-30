@@ -16,6 +16,6 @@ Like a lot of these gateway projects, I wanted to use a Raspberry Pi to read the
 
 <img src="https://raw.githubusercontent.com/tsaitsai/govee_bluetooth_gateway/main/images/chest_freezer-cooldown_warmup.jpg" width="472" height="480">
 
-I'm also interested in how the freezer behaves.  How much those the temperature fluctuate, how many watts it consumes, etc.  It's interesting how long it takes for it to go from -13F back put up to 32F when the power is shut off.  To monitor energy consumption, I used a [wifi outlet](https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07VDGM6QR) with built-in current sensor and flashed it with Tasmota via [Tuya Convert](https://github.com/ct-Open-Source/tuya-convert).
+I'm also interested in how the freezer behaves.  How the temperature fluctuates, how many watts it consumes, etc.  It's interesting how long it takes for it to go from -13F back put up to 32F when the power is shut off.  To monitor energy consumption, I used a [wifi outlet](https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07VDGM6QR) with built-in current sensor and flashed it with Tasmota via [Tuya Convert](https://github.com/ct-Open-Source/tuya-convert).  This Hisense chest freezer seems to use about .70kWh per day when the unit is totally empty and door kept closed.
 
 <img src="https://raw.githubusercontent.com/tsaitsai/govee_bluetooth_gateway/main/images/energy_consumption_monitoring.jpg" width="317" height="423">
