@@ -16,6 +16,9 @@ Install dependencies:
 Needs sudo to run on Raspbian
 sudo python3 govee_ble_mqtt_pi.py
 
+Run in background
+sudo nohup python3 govee_ble_mqtt_pi.py &
+
 '''
 
 from __future__ import print_function
