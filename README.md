@@ -20,4 +20,6 @@ I'm also interested in how the freezer behaves.  How the temperature fluctuates,
 
 <img src="https://raw.githubusercontent.com/tsaitsai/govee_bluetooth_gateway/main/images/energy_consumption_monitoring.jpg" width="317" height="423">
 
-  I'll update the energy usage once the freezer is more fully filled.  I'll also update when I get battery life data.  The Govee bluetooth sensor unfortunately sends out updates too often (every couple of seconds).  So the added battery capacity from the AAA batteries may not be a huge advantage at the end of the day.
+  I'll update the energy usage once the freezer is more full of food.  I'll also update when I get battery life data.  The Govee bluetooth sensor unfortunately sends out updates way more often than necessary (every couple of seconds).  So the added battery capacity from the AAA batteries may be somewhat negated by the excess data transmissions.
+  
+The chest freezer isn't blocking the signal too much.  The Pi gateway is one level up and one room over from the chest freezer location, and I'm able to receive 3 out of 5 advertisements on average.
