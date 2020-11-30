@@ -16,6 +16,8 @@ Like a lot of these gateway projects, I wanted to use a Raspberry Pi to read the
 
 <img src="https://raw.githubusercontent.com/tsaitsai/govee_bluetooth_gateway/main/images/chest_freezer-cooldown_warmup.jpg" width="472" height="480">
 
-I'm also interested in how the freezer behaves.  How the temperature fluctuates, how many watts it consumes, etc.  It's interesting how long it takes for it to go from -13F back put up to 32F when the power is shut off.  To monitor energy consumption, I used a [wifi outlet](https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07VDGM6QR) with built-in current sensor and flashed it with Tasmota via [Tuya Convert](https://github.com/ct-Open-Source/tuya-convert).  This Hisense chest freezer seems to use about .70kWh per day when the unit is totally empty and door kept closed.
+I'm also interested in how the freezer behaves.  How the temperature fluctuates, how many watts it consumes, etc.  It's interesting how long it takes for it to go from -13F back put up to 32F when the power is shut off.  To monitor energy consumption, I used a [wifi outlet](https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07VDGM6QR) with built-in current sensor and flashed it with Tasmota via [Tuya Convert](https://github.com/ct-Open-Source/tuya-convert).  This 7 cu-ft Hisense chest freezer uses about 0.7 kWh per day when the unit is totally empty and door kept closed.
 
 <img src="https://raw.githubusercontent.com/tsaitsai/govee_bluetooth_gateway/main/images/energy_consumption_monitoring.jpg" width="317" height="423">
+
+  I'll update the energy usage once the freezer is more fully filled.  I'll also update when I get battery life data.  The Govee bluetooth sensor unfortunately sends out updates too often (every couple of seconds).  So the added battery capacity from the AAA batteries may not be a huge advantage at the end of the day.
