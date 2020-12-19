@@ -104,8 +104,6 @@ class ScanDelegate(DefaultDelegate):
             
             sys.stdout.flush()
 
-            sys.stdout.flush()
-
 scanner = Scanner().withDelegate(ScanDelegate())
 
 #replace localhost with your MQTT broker
